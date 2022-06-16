@@ -18,7 +18,7 @@ import java.util.ArrayList;
  * 2. 把区间分成长度为1的小区间，按小区间的最小值投影到数组对应的下标上
  * 执行速度超过99.45%的提交
  */
-public class LeetCode56 {
+public class MergeIntervals56 {
     public int[][] merge(int[][] intervals) {
         // 寻找所有区间中最大的数字
         int max = 0;
